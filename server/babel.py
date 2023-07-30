@@ -21,7 +21,7 @@ def create_babel(app):
     app.config['BABEL_LANGUAGES'] = BABEL_LANGUAGES
 
     babel.init_app(app, locale_selector=get_locale)
-    compile_translations()
+    #compile_translations()
 
 
 def get_locale():
